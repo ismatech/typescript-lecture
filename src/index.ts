@@ -40,7 +40,7 @@ const sum = (a: number, b: number) => a + b;
 class Point {
 	public x = 1;
 
-	getX() {
+	public getX() {
 		return this.x;
 	}
 }

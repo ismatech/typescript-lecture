@@ -7,7 +7,8 @@
     "lint": "eslint . ",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky install",
-    "start": "webpack  serve",
+    "start": "webpack serve",
+    "build": "webpack",
     "test": "karma start"
   },
   "keywords": [
@@ -48,6 +49,7 @@
     "style-loader": "^3.2.1",
     "ts-loader": "^9.2.5",
     "ts-node": "^10.2.1",
+    "tslib": "^2.4.1",
     "typescript": "^4.4.2",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
